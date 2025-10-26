@@ -6,7 +6,7 @@ describe('OrangeHRM Employee Test', () => {
 
   const logStep = (message) => {
     step++;
-    const formatted = `🟡 STEP ${step}: ${message}`;
+    const formatted = `🟡 STEPS ${step}: ${message}`;
     cy.log(formatted);
     console.log(`%c${formatted}`, 'color: orange; font-weight: bold;');
   };
